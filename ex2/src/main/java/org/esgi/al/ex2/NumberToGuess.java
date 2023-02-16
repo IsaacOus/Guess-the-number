@@ -13,4 +13,9 @@ public class NumberToGuess {
     public int getNumber() {
         return number;
     }
+
+
+    public boolean isCorrect(int userGuess) {
+        return userGuess == number;
+    }
 }
